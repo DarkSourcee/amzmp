@@ -1,0 +1,9 @@
+.flex {
+    text-align: center;
+    font-size: 32pt;
+    padding: 20px;
+}
+
+.flex i, .conteudo {
+    padding: 10px;
+}

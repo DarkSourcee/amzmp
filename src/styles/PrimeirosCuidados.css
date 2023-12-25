@@ -1,0 +1,8 @@
+.cuidados{
+    padding: 20px;
+}
+
+.cuidados div {
+    display: flex;
+    gap: 50px;
+}

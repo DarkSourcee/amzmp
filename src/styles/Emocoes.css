@@ -1,0 +1,12 @@
+.emocoes div{
+    display: flex;
+}
+
+.emocoes {
+    padding: 40px;
+}
+
+.emocoes i{
+    font-size: 30pt;
+    padding: 10px;
+}

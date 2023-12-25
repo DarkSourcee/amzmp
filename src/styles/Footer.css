@@ -1,0 +1,16 @@
+.rodape {
+    background: #22142b url('../assets/img/imgfundo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.rodape .img {
+    text-align: center;
+    padding: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    color: white;
+}
