@@ -1,3 +1,122 @@
 .perguntas-frequentes{
     padding: 20px;
 }
+
+a {
+    color: black;
+    text-align: left;
+    font: normal normal medium 18px/22px Montserrat;
+    color: #85C2AD;
+    opacity: 1;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+#banner {
+    height: 780px;
+    background: transparent url('../assets/img/BANNER-HOME.png') center center no-repeat padding-box;
+    background-size: cover;
+    border-radius: 0px 0px 258px 258px;
+    opacity: 0.96;
+}
+
+#consultas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+}
+
+#consultas div{
+    padding: 10px;
+}
+
+#consultas div img{
+    width: 100%;
+    border-radius: 20px;
+    transition: transform 0.7s ease-in-out;
+    transform: scale(1.0);
+}
+
+#consultas div img:hover{
+    transition: transform 0.7s ease-in-out;
+    transform: scale(0.9);
+}
+
+#consultas h3 {
+    text-align: left;
+    font: normal normal bold 21px/28px Comfortaa;
+    letter-spacing: 0px;
+    color: #4A7866;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+#consultas p {
+    text-align: left;
+    font: normal normal normal 18px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #6D6D6D;
+    opacity: 1;
+}
+
+#sobre-doutora {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+#sobre-doutora #div-sobre-doutora{
+    padding: 20px;
+}
+
+#sobre-doutora h4 {
+    text-align: left;
+    font: normal normal bold 24px/24px Comfortaa;
+    letter-spacing: 0px;
+    color: #4A7866;
+}
+
+#sobre-doutora p {
+    text-align: left;
+    font: normal normal normal 18px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #6D6D6D;
+    opacity: 1;
+}
+
+#sobre-consultorio {
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    margin: 20px 0px;
+    align-items: center;
+}
+
+#img-corrosel {
+    width: 500px;
+}
+
+#img-intersecao {
+    width: 198px;
+}
+
+@media (max-width: 768px) {
+    #sobre-doutora img{
+        height: 200px;
+    }
+
+    #banner {
+        width: 100%;
+        height: 300px;
+        background-size: contain;
+    }
+}
+
+@media (max-width: 430px){
+    #sobre-doutora{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #consultas {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
