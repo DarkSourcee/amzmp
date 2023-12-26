@@ -1,5 +1,6 @@
 .emocoes div{
     display: flex;
+    font-size: 12pt !important;
 }
 
 .emocoes {
@@ -7,6 +8,15 @@
 }
 
 .emocoes i{
-    font-size: 30pt;
     padding: 10px;
+}
+
+@media (max-width: 780px) {
+    .emocoes p{
+        text-align: justify;
+    }
+
+    .emocoes {
+        padding: 10px;
+    }
 }

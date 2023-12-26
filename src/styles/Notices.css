@@ -63,3 +63,16 @@
     flex-direction: column;
     justify-content: end;
 }
+
+@media (max-width: 430px) {
+    #conteudo div{
+        justify-content: center;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 1024px) {
+    #conteudo{
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
