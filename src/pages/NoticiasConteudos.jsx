@@ -11,6 +11,7 @@ export const NoticiasConteudos = () => {
             < Banner titulo="BLOG" 
                      subtitulo="Dra. Suzane Sales" 
                      img={urso} 
+                     padrao="S"
                      fundo="linear-gradient(45deg, #C49395, #E2B5B7, #E4AAAC)"
                      align="center"
                      justify="center"

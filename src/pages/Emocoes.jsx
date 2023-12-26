@@ -11,6 +11,7 @@ export const Emocoes = () => {
         <>
             < Banner titulo="COMO LIDAR COM AS BIRRAS E EMOÇÕES DAS CRIANÇAS?" 
                      fundo={bebe}
+                     padrao="N"
                      align="start"
                      justify="end"
                      cor_texto="white"/>

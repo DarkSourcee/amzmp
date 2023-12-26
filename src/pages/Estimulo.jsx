@@ -10,6 +10,7 @@ export const Estimulo = () => {
         <>
             < Banner titulo="COMO ESTIMULAR A AUTONOMIA INFANTIL?" 
                      fundo={img}
+                     padrao="N"
                      align="start"
                      justify="end"
                      cor_texto="white"/>

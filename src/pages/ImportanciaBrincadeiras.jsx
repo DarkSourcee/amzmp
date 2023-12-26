@@ -12,6 +12,7 @@ export const ImportanciaBrincadeiras = () => {
         <>
             < Banner titulo="QUAL A IMPORTÂNCIA DAS BRINCADEIRAS INFANTIS PARA DESENVOLVER O MEU FILHO?" 
                      fundo={img}
+                     padrao="N"
                      align="start"
                      justify="end"
                      cor_texto="black"/>

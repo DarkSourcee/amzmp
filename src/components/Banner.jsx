@@ -5,7 +5,10 @@ const DynamicDiv = styled.div`
   height: 316px;
   width: 100%;
   opacity: 0.96;
-  background: url('${(props) => props.$fundo}') no-repeat padding-box !important;
+  background: ${(props) =>
+    props.$padrao && props.$padrao !== 'S'
+      ? `url('${props.$fundo}') no-repeat`
+      : 'linear-gradient(45deg, #C49395, #E2B5B7, #E4AAAC) no-repeat'} !important;
   display: flex;
   flex-direction: column;
   align-items: ${(props) => props.$align};
@@ -13,7 +16,7 @@ const DynamicDiv = styled.div`
   color: ${(props) => props.$cor_texto};
 `;
 
-export const Banner = ({ titulo, subtitulo, img, fundo, align, justify, cor_texto }) => {
+export const Banner = ({ titulo, subtitulo, img, fundo, align, justify, cor_texto, padrao }) => {
   const [backgroundColor, setBackgroundColor] = useState('#ffffff');
 
   const generateRandomColor = () => {
@@ -36,7 +39,7 @@ export const Banner = ({ titulo, subtitulo, img, fundo, align, justify, cor_text
 
   return (
     <>
-      <DynamicDiv $fundo={fundo} $align={align} $justify={justify} $cor_texto={cor_texto}>
+      <DynamicDiv $fundo={fundo} $align={align} $justify={justify} $cor_texto={cor_texto} $padrao={padrao}>
         {img && <img src={img} alt="Imagem" />}
         <h1>{titulo}</h1>
         {subtitulo && <p>{subtitulo}</p>}

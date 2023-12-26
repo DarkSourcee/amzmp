@@ -12,6 +12,7 @@ export const PrimeirosCuidados = () => {
         <>
             < Banner titulo="QUAIS OS PRIMEIROS CUIDADOS COM O RECÉM-NASCIDO?" 
                      fundo={pathImagem}
+                     padrao="N"
                      align="start"
                      justify="center"
                      cor_texto="black"/>

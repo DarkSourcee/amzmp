@@ -10,6 +10,7 @@ export const RotinaInfantil = () => {
         <>
             < Banner titulo="DE QUE FORMA A ROTINA ESTIMULA O DESENVOLVIMENTO INFANTIL?" 
                      fundo={img}
+                     padrao="N"
                      align="start"
                      justify="start"
                      cor_texto="black"/>
