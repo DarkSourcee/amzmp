@@ -8,6 +8,10 @@ import image2 from "../assets/img/imagem-empresa.png";
 import '../styles/Footer.css';
 
 export function Footer() {
+
+  const wazeLink = "https://www.waze.com/ul?q=Av.+Senador+Vergueiro,2123+-+São+Bernardo+do+Campo";
+  const googleMapsLink = "https://www.google.com/maps?q=Av.+Senador+Vergueiro,2123+-+São+Bernardo+do+Campo";
+
   return (
     <footer className="rodape">
       <div className="img">
@@ -34,11 +38,17 @@ export function Footer() {
           <p>Consultório particular</p>
           <p>
             Av. Senador Vergueiro,2123 - São Bernardo do Campo - 16º. Andar -
-            Sala 1605 | CEP 09601-000 | Tel: 11 91057.8890
+            Sala 1605 | CEP 09601-000 | Tel: <a href="tel:+11910578890">
+                                                <i className="fas fa-phone"></i> 11 91057.8890
+                                             </a>
           </p>
           <p>Veja como chegar</p>
-          <Buttons tipo="btn btn-primary" texto="Waze" icone="fa-brands fa-waze"/>
-          <Buttons tipo="btn btn-success" texto="Google Maps" icone="fa-solid fa-map-location-dot"/>
+          <a href={wazeLink} target="_blank" rel="noopener noreferrer">
+            <Buttons tipo="btn btn-primary" texto="Waze" icone="fa-brands fa-waze" />
+          </a>
+          <a href={googleMapsLink} target="_blank" rel="noopener noreferrer">
+            <Buttons tipo="btn btn-success" texto="Google Maps" icone="fa-solid fa-map-location-dot" />
+          </a>
         </div>
       </div>
     </footer>
