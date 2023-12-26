@@ -8,6 +8,8 @@ import bebe2 from "../assets/img/bebe2.jpg";
 import bebe3 from "../assets/img/bebe3.jpg";
 import bebe4 from "../assets/img/bebe4.jpg";
 
+import "../styles/Main.css";
+
 import "../App.css";
 
 export const Main = () => {
