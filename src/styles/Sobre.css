@@ -1,5 +1,6 @@
 *{
-    font-size: 12pt !important
+    font-size: 12pt !important;
+    text-align: justify;
 }
 
 #sobre-banner {
@@ -129,19 +130,17 @@
     }
 }
 
+@media (max-width: 768px) {
+    .grid-s {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 450px) {
     #sobre-banner {
         background-size: cover;
         background-repeat: no-repeat;
         height: 250px;
-    }
-
-    #sobre-trajetoria{
-        display: flex;
-        flex-direction: column;
-    }
-
-    #sobre-trajetoria p {
-        text-align: justify;
     }
 }
