@@ -10,6 +10,7 @@ import { ImportanciaBrincadeiras } from "./pages/ImportanciaBrincadeiras";
 import { Emocoes } from "./pages/Emocoes";
 import { RotinaInfantil } from "./pages/RotinaInfantil";
 import { Estimulo } from "./pages/Estimulo";
+import { Contato } from "./components/Contact";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/estimulo" element={<Estimulo />} />
       </Routes>
       <Footer />
+      <Contato />
     </Router>
   );
 };
