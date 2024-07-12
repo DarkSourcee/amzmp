@@ -1,0 +1,22 @@
+.emocoes div{
+    display: flex;
+    font-size: 12pt !important;
+}
+
+.emocoes {
+    padding: 40px;
+}
+
+.emocoes i{
+    padding: 10px;
+}
+
+@media (max-width: 780px) {
+    .emocoes p{
+        text-align: justify;
+    }
+
+    .emocoes {
+        padding: 10px;
+    }
+}

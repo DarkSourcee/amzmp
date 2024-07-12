@@ -1,0 +1,146 @@
+*{
+    font-size: 12pt !important;
+    text-align: justify;
+}
+
+#sobre-banner {
+    background-image: url('../assets/img/IMG_2434.png') !important;
+    opacity: 0.96;
+    height: 600px;
+    background-size: cover; 
+}
+
+#sobre-banner h1{
+    text-align: left;
+    font: normal normal normal 49px/60px Comfortaa !important;
+    letter-spacing: 0px;
+    color: #FFFFFF !important;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+#sobre-descritivo{
+    padding: 20px;
+}
+
+#sobre-descritivo h2{
+    text-align: center;
+    font: normal normal bold 24px/32px Comfortaa !important;
+    letter-spacing: 0px;
+    color: #4A7866 !important;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+#sobre-descritivo p{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #6D6D6D !important;
+    opacity: 1;
+}
+
+#fala-doutora-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#fala-doutora-conteudo h2 {
+    text-align: left;
+    font: normal normal bold 21px/28px Comfortaa !important;
+    letter-spacing: 0px;
+    color: #C49395 !important;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+#fala-doutora-conteudo p .paragrafo {
+    text-align: left;
+    font: normal normal bold 18px/24px Comfortaa !important;
+    letter-spacing: 0px;
+    color: #C49395 !important;
+    opacity: 1;
+}
+
+#fala-doutora-conteudo p {
+    text-align: left;
+    font: normal normal normal 18px/22px Montserrat !important;
+    letter-spacing: 0px;
+    color: #6D6D6D !important;
+    opacity: 1;
+}
+
+#fala-doutora, .grid-s {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.trajetoria {
+    text-align: center;
+    font: normal normal bold 24px/32px Comfortaa !important;
+    letter-spacing: 0px;
+    color: #4A7866 !important;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-top: 50px;
+}
+
+.grid-s{
+    padding: 20px;
+}
+
+.grid-titu {
+    text-align: left;
+    font: normal normal 600 18px/19px Montserrat !important;
+    letter-spacing: 0px;
+    color: #C49395 !important;
+}
+
+.experiencia-prof{
+    text-align: center;
+    padding: 20px;
+}
+
+.experiencia-prof-titu {
+    text-align: center;
+    font: normal normal 600 18px/19px Montserrat !important;
+    letter-spacing: 0px;
+    color: #4A7866 !important;
+    text-transform: uppercase;
+}
+
+.experiencia-prof p {
+    text-align: center;
+    font: normal normal normal 16px/19px Montserrat !important;
+    letter-spacing: 0px;
+    color: #6D6D6D !important;
+}
+
+@media (max-width: 1024px) {
+    #fala-doutora {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #fala-doutora-img img {
+        max-width: -webkit-fill-available;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-s {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 450px) {
+    #sobre-banner {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+    }
+}

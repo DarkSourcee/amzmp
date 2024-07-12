@@ -1,0 +1,13 @@
+main{
+    padding: 20px;
+}
+
+main div{
+    text-align: center;
+    font-size: 30pt;
+    padding: 20px;
+}
+
+main div i {
+    margin: 0px 10px;
+}
